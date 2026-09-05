@@ -132,7 +132,7 @@ export function Footer() {
                 <span className="font-medium">WhatsApp Chat</span>
               </a>
               <a
-                href="mailto:info@maharvinfocare.com"
+                href="mailto:m.infocarengr@gmail.com"
                 className="group flex items-center gap-3 text-sm text-white/60 transition-all duration-300 hover:text-white hover:translate-x-1"
               >
                 <div className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 transition-all duration-300 group-hover:from-purple-500 group-hover:to-pink-500">

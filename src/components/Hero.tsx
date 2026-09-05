@@ -45,20 +45,19 @@ export function Hero() {
             </div>
 
             <h1 className="mt-6 text-4xl font-extrabold leading-[1.1] tracking-tight text-white sm:text-5xl lg:text-6xl">
-              Your Trusted{" "}
-              <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Technology Partner</span>{" "}
+              Computer &amp; Laptop{" "}
+              <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Repair Shop</span>{" "}
               in Ranpur
             </h1>
 
             <p className="mt-5 text-lg font-medium text-white/90 sm:text-xl flex items-center justify-center lg:justify-start gap-2">
               <Sparkles className="h-4 w-4 text-yellow-400" />
-              Computer Sales, Repair, Software Development, IT Solutions &amp; Educational Services
+              Computer Repair, Laptop Servicing, Software Installation &amp; IT Solutions
             </p>
 
             <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-white/60 sm:text-base lg:mx-0">
-              From computer hardware and refurbished laptops to custom software and website development,
-              MAHAVIR INFO CARE provides reliable technology solutions for individuals, students, businesses,
-              schools and offices.
+              Serving Ranpur and Nayagarh with computer repair, laptop repair, Windows and software installation,
+              driver setup, hardware support, refurbished laptops and custom IT solutions for homes and businesses.
             </p>
 
             {/* Stats - new addition */}

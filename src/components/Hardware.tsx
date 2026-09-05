@@ -18,6 +18,7 @@ const HARDWARE_CATEGORIES = [
   { name: "Power Supplies", icon: Power, color: "from-yellow-500 to-orange-500" },
   { name: "Cables & Wires", icon: Cable, color: "from-teal-500 to-cyan-500" },
   { name: "Network Devices", icon: Network, color: "from-fuchsia-500 to-purple-500" },
+
 ];
 
 export function Hardware() {

@@ -51,7 +51,8 @@ export function DriverSupport() {
             Software &amp; <span className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">Driver Support</span>
           </h2>
           <p className="mt-4 text-lg text-slate-700 leading-relaxed max-w-2xl mx-auto">
-            Complete software installation, driver setup, and system configuration for your computers and laptops.
+            Professional laptop and computer software installation, Windows setup, driver installation, and system
+            configuration in Ranpur and Nayagarh.
             <span className="block text-sm text-slate-500 mt-2">
               <span className="inline-flex items-center gap-1.5">
                 <Wrench className="h-4 w-4 text-indigo-400" />

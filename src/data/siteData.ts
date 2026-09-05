@@ -61,6 +61,7 @@ export const SOFTWARE_SERVICES = [
   "Custom Web Applications", "Database Applications", "Cloud-based Applications",
   "Automation Solutions", "API Integration", "Firebase Applications",
   "Supabase Applications", "Custom Digital Solutions",
+  "Antivirus Available: K7 Total Security & Quick Heal Total Security (3-year validity)",
 ] as const;
 
 export const WEBSITE_SERVICES = [

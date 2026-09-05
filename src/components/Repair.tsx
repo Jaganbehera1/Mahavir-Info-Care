@@ -53,11 +53,11 @@ export function Repair() {
                 Repair Services
               </div>
               <h2 className="mt-5 text-4xl font-extrabold tracking-tight sm:text-5xl">
-                Computer &amp; <span className="bg-gradient-to-r from-orange-600 via-amber-600 to-yellow-600 bg-clip-text text-transparent">Laptop Repair</span>
+                Computer &amp; <span className="bg-gradient-to-r from-orange-600 via-amber-600 to-yellow-600 bg-clip-text text-transparent">Laptop Repair in Ranpur</span>
               </h2>
               <p className="mt-4 text-lg text-slate-700 leading-relaxed">
-                Reliable solutions for hardware and software problems. Whether your computer won't start
-                or your laptop is running slow, we diagnose and fix the issue.
+                Looking for a computer repair shop near Ranpur or Nayagarh? We diagnose and resolve hardware and
+                software problems, from a computer that will not start to a slow laptop, charging issue or faulty component.
               </p>
 
               {/* Stats badges */}
