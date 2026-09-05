@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { Menu, X, Phone, Cpu, Award, Shield, Sparkles } from "lucide-react";
+import { Menu, X, Phone, Award, Shield, Sparkles } from "lucide-react";
 import { BUSINESS, NAV_LINKS, PHONE_LINK } from "@/data/siteData";
+import companyLogo from "@/images/WhatsApp Image 2026-09-04 at 5.03.16 PM.jpeg";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -39,14 +40,14 @@ export function Navbar() {
       )}
 
       <nav className="container-max relative flex items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-        {/* Logo - enhanced with tricolor badge */}
-        <a href="#home" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <div className="relative">
-            <div className={`flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-500 via-white to-green-500 shadow-lg shadow-orange-500/30 transition-transform duration-300 hover:scale-110 hover:rotate-3`}>
-              <Cpu className="h-5 w-5 text-white drop-shadow-md" />
-            </div>
-            {/* Tricolor ring */}
-            <div className="absolute -inset-0.5 rounded-2xl bg-gradient-to-r from-orange-500 via-white to-green-500 opacity-0 blur-sm transition-opacity duration-300 group-hover:opacity-100" />
+        {/* Company logo and brand */}
+        <a href="#home" className="group flex items-center gap-3" onClick={() => setOpen(false)}>
+          <div className="relative h-11 w-11 shrink-0 overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/20 ring-1 ring-white/70 transition-transform duration-300 group-hover:scale-105">
+            <img
+              src={companyLogo}
+              alt="Mahavir Info Care logo"
+              className="h-full w-full object-cover"
+            />
           </div>
           <div className="leading-tight">
             <div className={`text-base font-extrabold tracking-tight sm:text-lg transition-colors duration-300 ${
@@ -130,8 +131,12 @@ export function Navbar() {
           <div className="flex flex-col p-3">
             {/* Brand in mobile menu */}
             <div className="flex items-center gap-3 px-4 py-3 border-b border-slate-100">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-orange-500 via-white to-green-500 shadow-lg shadow-orange-500/20">
-                <Cpu className="h-5 w-5 text-white" />
+              <div className="h-10 w-10 shrink-0 overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/15 ring-1 ring-slate-100">
+                <img
+                  src={companyLogo}
+                  alt="Mahavir Info Care logo"
+                  className="h-full w-full object-cover"
+                />
               </div>
               <div>
                 <div className="text-sm font-extrabold text-slate-900">

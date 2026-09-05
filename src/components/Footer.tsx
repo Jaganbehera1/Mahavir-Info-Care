@@ -1,5 +1,6 @@
-import { Cpu, Phone, MapPin, MessageCircle, Mail, Clock, ArrowUpRight, Heart, Sparkles, ChevronRight } from "lucide-react";
+import { Phone, MapPin, MessageCircle, Mail, Clock, ArrowUpRight, Heart, Sparkles, ChevronRight } from "lucide-react";
 import { BUSINESS, NAV_LINKS, FOOTER_SERVICES, PHONE_LINK, WHATSAPP_LINK } from "@/data/siteData";
+import companyLogo from "@/images/WhatsApp Image 2026-09-04 at 5.03.16 PM.jpeg";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -24,8 +25,12 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500 to-purple-600 shadow-lg shadow-blue-500/30 transition-transform duration-300 hover:scale-110 hover:rotate-3">
-                <Cpu className="h-6 w-6 text-white" />
+              <div className="h-12 w-12 shrink-0 overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-950/30 ring-1 ring-white/20 transition-transform duration-300 hover:scale-105">
+                <img
+                  src={companyLogo}
+                  alt="Mahavir Info Care logo"
+                  className="h-full w-full object-cover"
+                />
               </div>
               <div className="leading-tight">
                 <div className="text-lg font-extrabold text-white">
